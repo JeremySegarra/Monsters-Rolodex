@@ -33,7 +33,7 @@ const App = () => {
     const searchFieldString = event.target.value.toLocaleLowerCase();
     setTitle(searchFieldString);
   };
-
+  console.log("testing push");
   return (
     <div className="App">
       <h1 className="app-title">{title}</h1>
